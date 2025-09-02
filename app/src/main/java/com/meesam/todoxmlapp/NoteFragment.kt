@@ -5,16 +5,19 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.meesam.todoxmlapp.databinding.FragmentNoteBinding
 
 class NoteFragment : Fragment() {
 
+    private lateinit var binding: FragmentNoteBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_note, container, false)
+        binding = FragmentNoteBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
 }

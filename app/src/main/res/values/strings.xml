@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">TodoXmlApp</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_regis_fragment">Hello Registration fragment</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registration_fragment">Registration Fragment</string>
+    <string name="register_for_new_account">Register for new account</string>
 </resources>
